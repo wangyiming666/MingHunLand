@@ -1,0 +1,58 @@
+# 基础忽略规则
+*.sln
+*.suo
+*.user
+*.userprefs
+*.log
+*.DS_Store
+Thumbs.db
+
+# 二进制文件
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# 中间文件
+[Bb]in/
+[Oo]bj/
+*.obj
+*.pch
+*.ilk
+*.meta
+*.exp
+*.opendb
+*.vcxproj.*
+*.vc.db
+
+# UE特定忽略
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+*.sdf
+*.opensdf
+*.VC.db
+*.proj
+*.uprojectdirs
+*.aps
+*.clw
+*.ncb
+*.sbr
+
+# 平台特定
+[Pp]lugins/
+[Pp]latforms/
+
+
+
+# 保留Content目录下的所有内容(除了临时文件)
+Content/**/*
+!Content/*.uasset
+!Content/*.umap
+
+# 保留源代码
+Source/**/*.cpp
+Source/**/*.h
